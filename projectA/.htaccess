@@ -1,0 +1,4 @@
+AuthType Basic
+AuthUserFile "/home/g2z22mkm5pig/.htpasswds/public_html/projectA/passwd"
+require valid-user
+AuthName "Protected Enterprise Content"
