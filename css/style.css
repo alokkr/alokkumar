@@ -32,6 +32,9 @@ nav{
 	padding: 20px 0;
 	height: 80px;
 }
+.line{
+	border-bottom: 1px solid #e2e2e2;
+}
 nav ul{
 	float: right;
 }
