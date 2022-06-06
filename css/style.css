@@ -15,7 +15,8 @@ section{overflow: auto;}
 }
 p, a, ul>li, ol>li{
 	/*font-family: avenir;*/
-	font-family: 'Roboto', sans-serif;
+	/* font-family: 'Roboto', sans-serif; */
+	font-family: 'Merriweather', serif;
 	line-height: 1.8;
 	font-size: 16px;
 	font-weight: 400;
@@ -149,10 +150,12 @@ h1{
 	}
 .static-banner{
 	background-image: url(../images/woods-banner.png);
-	height: 500px;
+	/* height: 500px; */
 	background-color: #E9EDF0;
 	background-position: center;
 	background-repeat: no-repeat;
+	background-size: cover;
+	padding:100px 60px;
 }
 .static-banner1{
 	background-image: url(../images/vd-banner.png);
@@ -245,9 +248,12 @@ background-repeat: no-repeat;
 }
 
 .main h2{
-	font-size: 21px;
-	font-weight: bold;
+	font-size: 24px;
+	/* font-weight: bold; */
 	margin-top: 50px;
+}
+.main h3{
+	margin-top: 40px;
 }
 /*.main p{
 	font-size: 16px;
@@ -295,10 +301,10 @@ background-repeat: no-repeat;
 	font-weight: 400;
 
 }
-.woods .caption{
-	font-size: 32px;
+.content .caption{
+	font-size: 24px;
 	margin: 20px 0 25px;
-	line-height: 40px;
+	line-height: 36px;
 }
 .sub-head{
 	font-size: 27px;
