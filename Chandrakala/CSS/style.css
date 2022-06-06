@@ -1,0 +1,77 @@
+html{
+    height: 100%;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(../Images/chandrakala.jpg);
+    background-size: cover;
+}
+h1, h2{
+    margin: 10px 0;
+}
+p{
+    font-weight: 600;
+    line-height: 1.5;
+}
+.intro{
+    margin-top: 100px !important;
+}
+.intro{
+    /* width: 500px; */
+    text-align: center;
+    margin: 0 auto;
+    /* width: 50%; */
+    /* max-width: 700px; */
+    padding: 20px;
+    background-color: white;
+    backdrop-filter: blur(16px) saturate(181%);
+    -webkit-backdrop-filter: blur(16px) saturate(181%);
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+
+}
+.intro h1{
+    font-size: 64px;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.intro h2{
+    font-size: 32px;
+    font-weight: 400;
+}
+.container{
+    margin: 0 auto;
+}
+
+/* .intro h1{
+    font-size: 32px;
+}
+.intro h2{
+    font-size: 18px;
+}
+p{
+    font-size: 13px;
+} */
+
+/* for mobile */
+@media (max-width:600px){
+    .container{max-width: 580px;}    
+}
+/* for tablet */
+@media (min-width:601px) and (max-width:1023px){
+    .container{max-width: 700px;}
+}
+/* for small-desktop */
+@media (min-width:1024px){
+    .container{max-width: 880px;}
+}
+/* for mid-desktop */
+@media (min-width:1280px) and (max-width:1440px){
+    .container{max-width: 1280px;}
+}
+/* for large-desktop */
+@media (min-width:1441px){
+    .container{max-width: 1600px;}
+}
